@@ -1,0 +1,3 @@
+# Teddy
+
+Example PHP library.
