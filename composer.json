@@ -1,6 +1,7 @@
 {
     "name": "ikhrome/teddy",
     "description": "Teddy is a simple PHP library which allow Teddy to speak.",
+    "version": "1.0.0",
     "type": "library",
     "require-dev": {
         "phpunit/phpunit": "^7.3"
@@ -9,7 +10,9 @@
     "authors": [
         {
             "name": "Ivan Khromov",
-            "email": "khromov.ivan@gmail.com"
+            "email": "khromov.ivan@gmail.com",
+            "homepage": "https://khromov.pro",
+            "role": "Developer"
         }
     ],
     "autoload": {
@@ -17,5 +20,7 @@
             "Khromov\\Teddy\\": "src"
         }
     },
-    "require": {}
+    "require": {
+        "php": "^5.5 || ^7.0"
+    }
 }
